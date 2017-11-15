@@ -12,7 +12,7 @@ export class DetailPage {
   }
 
   load(): Promise<any> {
-    return new Promise(null);
+    return Promise.resolve(true);
   }
 
   refresh($refresher) {
